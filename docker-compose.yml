@@ -1,0 +1,6 @@
+version: "3"
+services:
+  webrobot-config-service:
+    image: zula/webrobot-config-service
+    ports:
+     - "3001:3001"
